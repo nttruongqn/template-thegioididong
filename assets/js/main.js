@@ -6,6 +6,10 @@ $(document).ready(function () {
             slidesToShow: 1,
             dots: true,
             centerMode: true,
+            autoplay:true,
+            infinite: true,
+            autoplaySpeed: 2000,
+
             
         });
     });
