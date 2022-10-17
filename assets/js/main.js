@@ -14,7 +14,8 @@ $(document).ready(function () {
         });
     });
 
-    $('.header-right-account').click(function(){
-        $('.hra-extra').toggle(200);
+    $('.header-three-line').click(function(){
+        $('.header-extra').toggle(200);
     });
+       
 });
