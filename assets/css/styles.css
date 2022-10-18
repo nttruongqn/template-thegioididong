@@ -103,7 +103,7 @@ a {
 
 .header-left-search {
     height: 36px;
-    width: 480px;
+    width: 80%;
     border-radius: 4px;
     display: flex;
     justify-content: space-between;
@@ -566,7 +566,7 @@ a {
 /* Responsive */
 @media (max-width: 1200px) {
     .header-left-search {
-        width: 400px;
+        width: 80%;
     }
 }
 
@@ -576,7 +576,7 @@ a {
         font-size: 12px;
     }
     .header-left-search {
-        width: 300px;
+        width: 70%;
     }
 
     .header-right-list .header-right-item .header-right-link {

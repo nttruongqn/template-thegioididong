@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang chủ</title>
+    <title>Giỏ hàng</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/cart.css">
     <link rel="stylesheet" href="assets/libs/bootstrap-4.6.2/css/bootstrap.min.css">
@@ -25,17 +25,22 @@
     <div class="cart-wrapper">
         <div class="header">
             <div class="header-container container">
-                <div class="header-left col-6">
+                <div class="header-left col-sm-12 col-md-6">
                     <div class="header-left-container">
+                        <div class="header-three-line">
+                            &#9776;
+                        </div>
                         <div class="header-left-logo">
+                            <span class="header-three-line"
+                                style="color: #fff;font-size: 24px; display: none;">&#9776;</span>
                             <a class="hl-logo-link" href="">
                                 <span>NTTQN</span>
                             </a>
                         </div>
                         <div class="header-left-search">
                             <input type="text">
-                             <button class="hl-search-button"><i class="fa fa-search"></i>
-                             </button>
+                            <button class="hl-search-button"><i class="fa fa-search"></i>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -49,7 +54,7 @@
                             </li>
                             <li class="header-right-item">
                                 <a href="" class="header-right-link">
-                                   Sản phẩm
+                                    Sản phẩm
                                 </a>
                             </li>
                             <li class="header-right-item">
@@ -73,12 +78,62 @@
                                 <img src="assets/images/icon/icon-cart.png" alt="">
                             </a>
                         </div>
-                        
+
                     </div>
-    
+
                 </div>
-            </div> 
-          
+                <div class="header-extra">
+                    <div class="he-top">
+                        <div class="header-three-line">
+                            &#9776;
+                        </div>
+                        <div class="header-left-logo">
+                            <span class="header-three-line"
+                                style="color: #fff;font-size: 24px; display: none;">&#9776;</span>
+                            <a class="hl-logo-link" href="">
+                                <span>NTTQN</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="he-bottom">
+                        <ul class="he-menu-list">
+                            <li class="he-menu-item">
+                                <a href="" class="he-menu-link">
+                                    Trang chủ
+                                </a>
+                            </li>
+                            <li class="he-menu-item">
+                                <a href="" class="he-menu-link">
+                                    Sản phẩm
+                                </a>
+                            </li>
+                            <li class="he-menu-item">
+                                <a href="" class="he-menu-link">
+                                    Tin tức
+                                </a>
+                            </li>
+                            <li class="he-menu-item">
+                                <a href="" class="he-menu-link">
+                                    Giới thiệu
+                                </a>
+                            </li>
+                            <li class="he-menu-item">
+                                <a href="" class="he-menu-link">
+                                    Tài khoản
+                                </a>
+                            </li>
+                            <li class="he-menu-item">
+                                <a href="" class="he-menu-link">
+                                    Giỏ hàng
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+
         </div>
         <div class="container">
             <nav aria-label="breadcrumb">
@@ -183,37 +238,29 @@
 
                                 </td>
                             </tr>
-
-
                         </tbody>
-                        <tfoot>
-                            <tr>
-                                <td>
-                                    <a href="">
-                                        <button class="btn-back-p btn-warning">
-                                            <span> Tiếp tục mua hàng</span>
-                                        </button>
-                                    </a>
-                                  </td>
-                                <td colspan="2"></td>
-                                <td>
-                                    <strong>
-                                        <span>
-                                            Tổng tiền: 59.999.999 đ
-                                        </span>
-                                    </td>
-                                    </strong>
-                                   
-                                <td>
-                                    <a href="">
-                                        <button class="btn-payment btn-success">
-                                            <span>Thanh toán</span>
-                                        </button>
-                                    </a>        
-                                </td>
-                            </tr>
-                        </tfoot>
                     </table>
+                </div>
+                <div class="cart-footer">
+                    <div class="cf-left">
+                        <a href="">
+                            <button class="btn-back-p btn-warning">
+                                <span> Tiếp tục mua hàng</span>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="cf-right">
+                            <span class="total-price">
+                                Tổng tiền: <strong>59.999.999 đ</strong>
+                            </span>
+
+                        <a href="">
+                            <button class="btn-payment btn-success">
+                                <span>Thanh toán</span>
+                            </button>
+                        </a>
+                    </div>
+
                 </div>
             </div>
 

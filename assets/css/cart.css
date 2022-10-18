@@ -1,10 +1,12 @@
 .cart-wrapper{
     background-color: #ffffff;
 }
-
-.cart-container{
-    min-height: 600px;
+.cart{
+    min-height: 100vh;
 }
+/* .cart-container{
+    min-height: 600px;
+} */
 
 /* .amount .form-control{
     width: 100%;
@@ -71,5 +73,71 @@ tbody td{
 }
 .btn-back-p span{
     color: #ffffff;
+
+}
+
+.cart-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-payment{
+    margin-left: 10px;
+}
+/* Responsive */
+@media (max-width: 1200px) {
+ 
+}
+
+
+@media (max-width: 992px) {
+ 
+}
+
+
+@media (max-width: 768px) {
+
+  
+}
+
+@media (max-width: 576px) {
+    .cart-footer{
+        margin-top: 4px;
+    }
+    .cart-container{
+        overflow: scroll;
+    }
+    .total-price{
+        font-size: 12px;
+
+    }
+    .cart-footer{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .cf-right span{
+        font-size: 12px;
+    }
+    .cf-right{
+        width: 100% ;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 4px;
+
+    }
+
+    .cf-left{
+        width: 100% ;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .cf-left span{
+        font-size: 12px;
+    }
 
 }

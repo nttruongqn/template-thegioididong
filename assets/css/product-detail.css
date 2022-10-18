@@ -15,6 +15,7 @@
 }
 
 .pd-main-left {
+    width: 50%;
     height: 400px;
 
 }
@@ -31,6 +32,8 @@
 
 
 .pd-main-right {
+    margin-left:15px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     padding: 10px 0;
@@ -84,13 +87,14 @@
 }
 .pd-desc-left{
     background-color: #ffffff;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px; 
+    width: 75%;
 
 }
 .pd-desc-right{
+    width: 25%;
     margin-left: 5px;
-    padding-top: 15px;
+    padding: 15px;
     min-height: 350px;
     max-height: 400px;
     padding-bottom: 15px;
@@ -145,28 +149,99 @@
     display: flex;
 }
 .lrp-item{
+    width: 25%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     box-shadow: 1px  #eeee;
     padding-bottom: 4px;
 }
-.lrp-item .lrp-item-img{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.lrp-item .lrp-item-img img{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    
 }
 .lrp-item-name{
     display: block;
     font-size: 16px;
     padding: 0 20px;
-    font-weight: 400;
+    font-weight: 700;
 }
 .lrp-item-price{
     display: block;
     padding: 0 20px;
     font-size: 15px;
-    color: #d0021c;
+    color: #0e2333;
     font-weight: 500;
     width: 100%;
+    font-weight: 700;
+
 }
+
+.pd-related-product h5{
+    margin-bottom: 10px;
+}
+
+
+
+
+/* Responsive */
+@media (max-width: 1200px) {
+ 
+}
+
+
+@media (max-width: 992px) {
+ 
+}
+
+
+@media (max-width: 768px) {
+
+  
+}
+
+@media (max-width: 576px) {
+    .pd-main{
+        flex-direction: column;
+    }
+    .pd-main-left{
+        width: 100% ;
+        padding: 10px;
+    }
+    .pd-main-right{
+        width: 100% ;
+        margin-left: 0;
+    }
+    .pdmr-product-price{
+        margin-top: 0;
+    }
+    .pd-desc-container{
+        flex-direction: column-reverse;
+    }
+    .pd-desc-left{
+        width: 100%;
+        padding: 10px;
+    }
+    .pd-desc-right{
+        width: 100%;
+        padding: 10px;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .list-related-product{
+        flex-wrap: wrap;
+    }
+
+    .lrp-item{
+        width: 50%;
+    }
+    .lrp-item-name{
+        font-size: 14px;
+    }
+    .lrp-item-price{
+        font-size: 14px;
+    }
+}
+
