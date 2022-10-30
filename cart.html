@@ -250,32 +250,93 @@
                         </a>
                     </div>
                     <div class="cf-right">
-                            <span class="total-price">
-                                Tổng tiền: <strong>59.999.999 đ</strong>
-                            </span>
-
-                        <a href="">
-                            <button class="btn-payment btn-success">
-                                <span>Thanh toán</span>
-                            </button>
-                        </a>
+                        <span class="total-price">
+                            Tổng tiền: <strong>59.999.999 đ</strong>
+                        </span>
+                        <button type="button" class="btn-payment btn-success" data-toggle="modal"
+                            data-target="#myModal">
+                            <span>Thanh toán</span>
+                        </button>
                     </div>
 
                 </div>
             </div>
+            <!-- The Modal -->
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
 
-        </div>
-        <div class="footer">
-            <div class="container">
-                <div class="footer-design">
-                    <span>Nguyen Thanh Truong</span>
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Thông tin thanh toán</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-sx-12 col-md-6">
+                                        <div class="form-group">
+                                            <label for="">Tên khách hàng</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-sx-12 col-md-6">
+                                        <div class="form-group">
+                                            <label for="">Địa chỉ</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-sx-12 col-md-6">
+                                        <div class="form-group">
+                                            <label for="">Số điện thoại</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-sx-12 col-md-6">
+                                        <div class="form-group">
+                                            <label for="">Lựa chọn hình thức thanh toán</label>
+                                            <div class="form-check">
+                                                <input type="radio" class="form-check-input" name="form-check" checked>
+                                                <label for="" class="form-check-label">Thanh toán trực tiếp</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="radio" class="form-check-input" name="form-check">
+                                                <label for="" class="form-check-label">Thanh toán trực tuyến</label>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <div class="mf-total-price">
+                                <span>Tổng tiền:</span>
+                                <strong><span>59.999.999 đ</span></strong>
+                            </div>
+                            <button type="button" class="btn btn-success">Thanh toán</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Thoát</button>
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
         </div>
     </div>
-
-
-
+    <div class="footer">
+        <div class="container">
+            <div class="footer-design">
+                <span>Nguyen Thanh Truong</span>
+            </div>
+        </div>
+    </div>
+    </div>
     <script src="assets/libs/jquery-3.6.1.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/libs/bootstrap-4.6.2/js/bootstrap.min.js"></script>

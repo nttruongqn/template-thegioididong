@@ -20,6 +20,8 @@ tbody td{
     height: 100px;
 }
 
+
+
 .product-cart-detail .pcd-main{
     display: flex;
     height: 100%;
@@ -44,8 +46,7 @@ tbody td{
     align-items: center;
     justify-content: center;
 }
-.product-cart-price-action{
-}
+
 .cp-action{
     height: 100%;
     display: flex;
@@ -85,6 +86,17 @@ tbody td{
 .btn-payment{
     margin-left: 10px;
 }
+
+/* .modal-content{
+    border: none!important;
+    border-radius: 0!important;
+}
+
+.modal-footer{
+    background-color: #ffffff;
+} */
+
+
 /* Responsive */
 @media (max-width: 1200px) {
  
@@ -140,4 +152,15 @@ tbody td{
         font-size: 12px;
     }
 
+}
+
+@media (min-width: 576px)
+{
+    .modal-dialog{
+      max-width: 800px!important;
+
+    }
+    .modal-content{
+      width: 800px!important;
+    }
 }

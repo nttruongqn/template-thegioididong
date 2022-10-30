@@ -172,7 +172,7 @@
     display: block;
     padding: 0 20px;
     font-size: 15px;
-    color: #0e2333;
+    color: #d0021c;
     font-weight: 500;
     width: 100%;
     font-weight: 700;
@@ -182,8 +182,6 @@
 .pd-related-product h5{
     margin-bottom: 10px;
 }
-
-
 
 
 /* Responsive */
